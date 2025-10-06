@@ -1,0 +1,23 @@
+******THINGS YET TO WORK ON******
+1)MULTIPLE POSTS HANDLING.(in PostCard.jsx) [DONE]
+2)PAGINATION.(backend controllers-> getPosts) [DONE]
+3)LIKE COMMENT.  (frontend -> CommentBox.jsx/Feed.jsx)  [DONE]
+4)Notifications (Navbar.jsx -> If liked or commented on a user's post) 
+5)Indexing (DB-> Models) 
+6)A small window in Feed.jsx where it shows the people who have liked the post...(Feed.jsx/Backend) [DONE]
+7) Toasitfyy..
+7) Faker 100-200 posts, 50-60 users.
+8) Doosre user ki Profile [DONE]
+9) GitHub and Vercel Deployment.
+
+
+
+// {"projectId":"prj_2SYojzMdttmcjT2YVOKjhNyih0eE","orgId":"team_shf3gW0Su5hI0W7xciOcnlbY","projectName":"backend-feedstagram",
+
+//   "builds": [
+//     { "src": "backend/api/index.js", "use": "@vercel/node" }
+//   ],
+//   "routes": [
+//     { "src": "/(.*)", "dest": "backend/api/index.js" }
+//   ]
+// }
