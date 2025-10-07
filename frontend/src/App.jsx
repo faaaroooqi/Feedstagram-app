@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Feed from "./pages/Feed";
 import Profile from "./pages/Profile";
 import MyPosts from "./pages/MyPosts";   // ✅ import your page
-import Login from "./pages/auth/Login";
-import Signup from "./pages/auth/Signup";
+import Login from "./pages/Auth/Login";
+import Signup from "./pages/Auth/Signup";
 import Navbar from "./components/Navbar";
 import { AuthProvider, AuthContext } from "./context/AuthContext";
 import PublicRoute from "./components/PublicRoute"
